@@ -1,9 +1,6 @@
 Flask==2.2.5
 Werkzeug==2.2.3
 opencv-python==4.8.0.76
-numpy==1.26.0
-torch==2.1.0         # optional, if you will use a PyTorch model
-torchvision==0.16.0  # optional
-face_recognition==1.3.0   # optional but useful for face cropping (depends on dlib)
-scikit-image==0.21.0
-moviepy==1.0.3
+numpy==1.24.4
+pillow
+gunicorn
