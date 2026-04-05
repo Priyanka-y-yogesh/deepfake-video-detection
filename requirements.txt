@@ -1,8 +1,14 @@
+pip
 setuptools
 wheel
+
 Flask==2.2.5
 Werkzeug==2.2.3
-opencv-python-headless==4.8.0.76
+gunicorn==21.2.0
+
 numpy==1.24.4
-pillow
-gunicorn
+opencv-python-headless==4.8.0.76
+Pillow==10.0.0
+
+torch==2.0.1
+torchvision==0.15.2
