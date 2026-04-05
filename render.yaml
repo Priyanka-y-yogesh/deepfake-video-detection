@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: deepfake-detection
+    name: deepfake-video-detection
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
